@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* CSS Variable */
+
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 10px 10px rgb(111, 0, 255);
+}
+
+.wrapper {
+    display: grid;
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark); 
+}
+
+body {
+    background: url(pu.jpeg);
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+.main-nav ul {
+    display: grid;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-nav a {
+    background-color: #6617cb;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+    display: ruby;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    border-radius: 17px 0px 17px 0px;
+    
+}
+
+.main-nav a:hover {
+    background-color: #a40606;
+    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);    
+    color: white;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+}
+
+header a{
+   text-decoration: none;
+   color: black;
+}
+
+header a:hover{
+    color: blue;
+}
+
+img {
+    border-radius: 17px 17px 17px 17px;
+    
+}
+
+
+.player-nav ul {
+    display: grid;
+    gap: 50px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.player-nav a {
+    background-color: #f907fc;
+    background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%);
+    display:block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    border-radius: 17px 17px 17px 17px;
+    
+}
+
+.player-nav a:hover {
+    background-color: #d4418e;
+    background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);  
+    color: white;
+}
+
+.fade-in-image {
+    opacity: 50%;
+    }
+    
+    
+
+    .grid-container {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: auto auto;
+        grid-template-rows: 225px 100px;
+      }
+
+
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 300px 100px;
+      }
